@@ -13,6 +13,7 @@
 		2CC934091ECD32BA00D4072D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CC934071ECD32BA00D4072D /* Main.storyboard */; };
 		2CC9340B1ECD32BA00D4072D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CC9340A1ECD32BA00D4072D /* Assets.xcassets */; };
 		2CC9340E1ECD32BA00D4072D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CC9340C1ECD32BA00D4072D /* LaunchScreen.storyboard */; };
+		2CC934161ECD370F00D4072D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2CC934151ECD370F00D4072D /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		2CC9340A1ECD32BA00D4072D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CC9340D1ECD32BA00D4072D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CC9340F1ECD32BA00D4072D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CC934151ECD370F00D4072D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		2CC933FE1ECD32BA00D4072D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2CC934151ECD370F00D4072D /* README.md */,
 				2CC933FF1ECD32BA00D4072D /* main.m */,
 			);
 			name = "Supporting Files";
@@ -152,6 +155,7 @@
 			files = (
 				2CC934061ECD32BA00D4072D /* ViewController.m in Sources */,
 				2CC934031ECD32BA00D4072D /* AppDelegate.m in Sources */,
+				2CC934161ECD370F00D4072D /* README.md in Sources */,
 				2CC934001ECD32BA00D4072D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,6 +315,7 @@
 				2CC934141ECD32BA00D4072D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
